@@ -371,6 +371,16 @@ button, a { transition: var(--transition); }
   box-shadow: var(--shadow-1);
   border-radius: var(--radius-18);
   font-family: var(--ff-nunito);
+  display: block;
+}
+
+/* Overwriting Media Query or Additional Styles */
+@media (min-width: 768px) {
+  .hero-form {
+    /* Your new display property or other styles */
+    display: block;
+    justify-content: space-between;
+  }
 }
 
 .input-wrapper { padding: 15px 20px; }
@@ -381,6 +391,7 @@ button, a { transition: var(--transition); }
   color: var(--manatee);
   font-size: var(--fs-6);
   margin-bottom: 10px;
+  width:400px;
 }
 
 .input-field {
@@ -983,7 +994,7 @@ button, a { transition: var(--transition); }
 
   .hero-banner {
     display: block;
-    background: url("../images/hero-banner.jpg") no-repeat;
+    background: url("../images/banner.jpg") no-repeat;
     background-size: cover;
     background-position: left;
     position: absolute;
