@@ -374,15 +374,6 @@ button, a { transition: var(--transition); }
   display: block;
 }
 
-/* Overwriting Media Query or Additional Styles */
-@media (min-width: 768px) {
-  .hero-form {
-    /* Your new display property or other styles */
-    display: block;
-    justify-content: space-between;
-  }
-}
-
 .input-wrapper { padding: 15px 20px; }
 
 .input-wrapper:not(:last-of-type) { border-bottom: 1px solid hsla(0, 0%, 0%, 0.08); }
@@ -977,7 +968,7 @@ button, a { transition: var(--transition); }
   }
 
   .hero-form {
-    display: grid;
+    display: block;
     grid-template-columns: 1fr 1fr 1fr 0.8fr;
   }
 
